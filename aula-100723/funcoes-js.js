@@ -1,6 +1,6 @@
 //Função ou Function -> Rotina
 
-/*let num1 = 4;
+let num1 = 4;
 let num2 = 5;
 function multiplicar() {
     console.log("O primeiro número é " + num1);
@@ -10,10 +10,10 @@ function multiplicar() {
 
 multiplicar(); 
 
-console.log("Hello");*/
+console.log("Hello");
 
 
-/* Funções Numéricas:
+ Funções Numéricas:
 Biblioteca de números (number)
 
 let result = isNaN(NaN); // true / false
@@ -39,7 +39,7 @@ console.log(num.toPrecision(4));
 
 console.log(num.toString());
 
-num = num.toString(); */
+num = num.toString(); 
 
 // Funções de Texto
 // Biblioteca de textos (string)
@@ -72,13 +72,13 @@ console.log(texto.indexOf("J"));
 console.log(texto.substring(0, 5));
 
 // Math ->  Biblioteca Matemática
-console.log(Math.ceil(2.3789)); // arredonda para o mais próximo de cima
+/*console.log(Math.ceil(2.3789)); // arredonda para o mais próximo de cima
 console.log(Math.floor(2.3789)); // arredonda para o mais próximo de baixo
 console.log(Math.round(2.3789)); // arredonda para o mais próximo
 console.log(Math.sqrt(121)); // raiz quadrada
 console.log(Math.abs(8)); // valor abosulto do número
 console.log(Math.random() * 100 + 1); // gera número aleatório  [o, 1 [
-console.log(Math.floor(Math.random() * 100 + 1)); // [1, 100]
+console.log(Math.floor(Math.random() * 100 + 1)); // [1, 100]*/
 
 
 
