@@ -107,10 +107,37 @@ function funAno() {
 }, 2000); */
 
 // parâmetros => escopo/isntrução
-(resultado, requisicao) => {
+/*(resultado, requisicao) => {
     console.log(resultado, requisicao)
     return 0;
+}*/
+
+// Testando a utilização das arrow fuctions
+function teste(callback) {
+    let valor = callback(130);
+    console.log(valor)
 }
 
+// Primeira forma de executar teste (Função Expression)
+function vezes2(numero) {
+    return (numero * 2);
+}
+teste(vezes2);
 
+// Segunda forma de executar "teste" (Função Anônima)
+teste(function (numero) {
+    return (numero * 2);
+});
 
+// Terceira forma ade executar "teste" (Função Arrow) - Modo 1
+teste((numero) => {
+    return (numero * 2);
+});
+
+// Quarta forma ade executar "teste" (Função Arrow) - Modo 2
+ // se for 01 parÂmetro, posso remover os parentese do "nome" da function
+ teste(numero => numero * 2); // pode-se omitir o "return" e as chaves qndo há apenas 1 instrução
+
+setTimeout(() => console.log("Olá, MUndo!"), 3000);// se a function não tem parâmetro, pode-se eliminar os parenteses e substituir por anderline.
+
+setTimeout(_ => console.log("Olá, MUndo!"), 3000); // se a function não tem parâmetro, pode-se eliminar os parenteses e substituir por anderline.
