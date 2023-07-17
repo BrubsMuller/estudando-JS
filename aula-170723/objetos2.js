@@ -62,5 +62,6 @@ let objeto2 = {...objeto1}; // copiar os elementos do objeto1 e "espelhar" no ob
 objeto1.nome = "Bruna Muller";
 console.log(objeto1);
 console.log(objeto2);
+
 delete objeto1.nome; // operador delete, remove propriedade (neste ex. foi o nome) do objeto.
 console.log(objeto1); 
