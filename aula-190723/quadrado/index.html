@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #quadrado {
+            width: 400px;
+            height: 400px;
+            background-color: rgba(79, 79, 185, 0.911);
+            transition-property: all;
+            transition-duration: 0.2s ;
+        }
+    </style>
+</head>
+<body>
+    <div id = "quadrado" onmouseover="changeColorSquare()">
+    </div>
+
+    <script src="evento.js"></script>
+</body>
+</html>
